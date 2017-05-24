@@ -1,0 +1,20 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AutoPEP8",
+		"Codecs33",
+		"CodeFormatter",
+		"ConvertToUTF8",
+		"GitGutter",
+		"MarkdownEditing",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"SublimeREPL",
+		"SublimeTmpl"
+	]
+}
