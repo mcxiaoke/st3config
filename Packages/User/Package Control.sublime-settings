@@ -10,13 +10,14 @@
 		"Codecs33",
 		"CodeFormatter",
 		"ConvertToUTF8",
+		"FileHeader",
 		"GitGutter",
-		"MarkdownEditing",
+		"Jedi - Python autocompletion",
+		"Local History",
 		"Package Control",
 		"Pretty JSON",
 		"SideBarEnhancements",
 		"Solarized Color Scheme",
-		"SublimeREPL",
-		"SublimeTmpl"
+		"SublimeREPL"
 	]
 }

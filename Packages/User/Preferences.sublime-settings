@@ -10,6 +10,7 @@
 	[
 		"Vintage"
 	],
+	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 4,
