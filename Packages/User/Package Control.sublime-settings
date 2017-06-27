@@ -9,8 +9,10 @@
 		"AutoPEP8",
 		"Codecs33",
 		"ConvertToUTF8",
+		"DashDoc",
 		"FileHeader",
 		"GitGutter",
+		"Hasher",
 		"HexViewer",
 		"Jedi - Python autocompletion",
 		"Local History",
@@ -18,6 +20,7 @@
 		"Pretty JSON",
 		"SideBarEnhancements",
 		"Solarized Color Scheme",
-		"SublimeREPL"
+		"SublimeREPL",
+		"x86 and x86_64 Assembly"
 	]
 }
