@@ -1,0 +1,423 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Board Options",
+				"id": "board_options",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_board_options",
+						"command": "stino_refresh_board_options"
+					},
+					{"caption": "-"},
+					{
+						"caption": "CPU Frequency",
+						"id": "stino_board_CPU Frequency",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "80 MHz",
+								"id": "stino_board_option_80 MHz",
+								"command": "stino_select_board_option",
+								"args": {"option": "CPU Frequency", "value": "80 MHz"},
+								"checkbox": true
+							},
+							{
+								"caption": "160 MHz",
+								"id": "stino_board_option_160 MHz",
+								"command": "stino_select_board_option",
+								"args": {"option": "CPU Frequency", "value": "160 MHz"},
+								"checkbox": true
+							}
+						]
+					},
+					{
+						"caption": "Debug Level",
+						"id": "stino_board_Debug Level",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "None",
+								"id": "stino_board_option_None",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "None"},
+								"checkbox": true
+							},
+							{
+								"caption": "Core",
+								"id": "stino_board_option_Core",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "Core"},
+								"checkbox": true
+							},
+							{
+								"caption": "Core + SSL",
+								"id": "stino_board_option_Core + SSL",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "Core + SSL"},
+								"checkbox": true
+							},
+							{
+								"caption": "Core + SSL + TLS Mem",
+								"id": "stino_board_option_Core + SSL + TLS Mem",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "Core + SSL + TLS Mem"},
+								"checkbox": true
+							},
+							{
+								"caption": "Core + WiFi",
+								"id": "stino_board_option_Core + WiFi",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "Core + WiFi"},
+								"checkbox": true
+							},
+							{
+								"caption": "WiFi",
+								"id": "stino_board_option_WiFi",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "WiFi"},
+								"checkbox": true
+							},
+							{
+								"caption": "HTTPClient",
+								"id": "stino_board_option_HTTPClient",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "HTTPClient"},
+								"checkbox": true
+							},
+							{
+								"caption": "HTTPClient + SSL",
+								"id": "stino_board_option_HTTPClient + SSL",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "HTTPClient + SSL"},
+								"checkbox": true
+							},
+							{
+								"caption": "HTTPUpdate",
+								"id": "stino_board_option_HTTPUpdate",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "HTTPUpdate"},
+								"checkbox": true
+							},
+							{
+								"caption": "HTTPClient + HTTPUpdate",
+								"id": "stino_board_option_HTTPClient + HTTPUpdate",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "HTTPClient + HTTPUpdate"},
+								"checkbox": true
+							},
+							{
+								"caption": "HTTPClient + HTTPUpdate + Updater",
+								"id": "stino_board_option_HTTPClient + HTTPUpdate + Updater",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "HTTPClient + HTTPUpdate + Updater"},
+								"checkbox": true
+							},
+							{
+								"caption": "HTTPServer",
+								"id": "stino_board_option_HTTPServer",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "HTTPServer"},
+								"checkbox": true
+							},
+							{
+								"caption": "Updater",
+								"id": "stino_board_option_Updater",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "Updater"},
+								"checkbox": true
+							},
+							{
+								"caption": "OTA",
+								"id": "stino_board_option_OTA",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "OTA"},
+								"checkbox": true
+							},
+							{
+								"caption": "OTA + Updater",
+								"id": "stino_board_option_OTA + Updater",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "OTA + Updater"},
+								"checkbox": true
+							},
+							{
+								"caption": "All",
+								"id": "stino_board_option_All",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug Level", "value": "All"},
+								"checkbox": true
+							}
+						]
+					},
+					{
+						"caption": "Debug port",
+						"id": "stino_board_Debug port",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "Disabled",
+								"id": "stino_board_option_Disabled",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug port", "value": "Disabled"},
+								"checkbox": true
+							},
+							{
+								"caption": "Serial",
+								"id": "stino_board_option_Serial",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug port", "value": "Serial"},
+								"checkbox": true
+							},
+							{
+								"caption": "Serial1",
+								"id": "stino_board_option_Serial1",
+								"command": "stino_select_board_option",
+								"args": {"option": "Debug port", "value": "Serial1"},
+								"checkbox": true
+							}
+						]
+					},
+					{
+						"caption": "Flash Frequency",
+						"id": "stino_board_Flash Frequency",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "40MHz",
+								"id": "stino_board_option_40MHz",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Frequency", "value": "40MHz"},
+								"checkbox": true
+							},
+							{
+								"caption": "80MHz",
+								"id": "stino_board_option_80MHz",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Frequency", "value": "80MHz"},
+								"checkbox": true
+							}
+						]
+					},
+					{
+						"caption": "Flash Mode",
+						"id": "stino_board_Flash Mode",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "DIO",
+								"id": "stino_board_option_DIO",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Mode", "value": "DIO"},
+								"checkbox": true
+							},
+							{
+								"caption": "QIO",
+								"id": "stino_board_option_QIO",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Mode", "value": "QIO"},
+								"checkbox": true
+							},
+							{
+								"caption": "DOUT",
+								"id": "stino_board_option_DOUT",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Mode", "value": "DOUT"},
+								"checkbox": true
+							},
+							{
+								"caption": "QOUT",
+								"id": "stino_board_option_QOUT",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Mode", "value": "QOUT"},
+								"checkbox": true
+							}
+						]
+					},
+					{
+						"caption": "Flash Size",
+						"id": "stino_board_Flash Size",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "512K (64K SPIFFS)",
+								"id": "stino_board_option_512K (64K SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "512K (64K SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "512K (128K SPIFFS)",
+								"id": "stino_board_option_512K (128K SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "512K (128K SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "512K (no SPIFFS)",
+								"id": "stino_board_option_512K (no SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "512K (no SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "1M (512K SPIFFS)",
+								"id": "stino_board_option_1M (512K SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "1M (512K SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "1M (256K SPIFFS)",
+								"id": "stino_board_option_1M (256K SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "1M (256K SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "1M (192K SPIFFS)",
+								"id": "stino_board_option_1M (192K SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "1M (192K SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "1M (160K SPIFFS)",
+								"id": "stino_board_option_1M (160K SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "1M (160K SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "1M (144K SPIFFS)",
+								"id": "stino_board_option_1M (144K SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "1M (144K SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "1M (128K SPIFFS)",
+								"id": "stino_board_option_1M (128K SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "1M (128K SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "1M (64K SPIFFS)",
+								"id": "stino_board_option_1M (64K SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "1M (64K SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "2M (1M SPIFFS)",
+								"id": "stino_board_option_2M (1M SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "2M (1M SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "4M (1M SPIFFS)",
+								"id": "stino_board_option_4M (1M SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "4M (1M SPIFFS)"},
+								"checkbox": true
+							},
+							{
+								"caption": "4M (3M SPIFFS)",
+								"id": "stino_board_option_4M (3M SPIFFS)",
+								"command": "stino_select_board_option",
+								"args": {"option": "Flash Size", "value": "4M (3M SPIFFS)"},
+								"checkbox": true
+							}
+						]
+					},
+					{
+						"caption": "Reset Method",
+						"id": "stino_board_Reset Method",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "ck",
+								"id": "stino_board_option_ck",
+								"command": "stino_select_board_option",
+								"args": {"option": "Reset Method", "value": "ck"},
+								"checkbox": true
+							},
+							{
+								"caption": "nodemcu",
+								"id": "stino_board_option_nodemcu",
+								"command": "stino_select_board_option",
+								"args": {"option": "Reset Method", "value": "nodemcu"},
+								"checkbox": true
+							}
+						]
+					},
+					{
+						"caption": "Upload Speed",
+						"id": "stino_board_Upload Speed",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "115200",
+								"id": "stino_board_option_115200",
+								"command": "stino_select_board_option",
+								"args": {"option": "Upload Speed", "value": "115200"},
+								"checkbox": true
+							},
+							{
+								"caption": "9600",
+								"id": "stino_board_option_9600",
+								"command": "stino_select_board_option",
+								"args": {"option": "Upload Speed", "value": "9600"},
+								"checkbox": true
+							},
+							{
+								"caption": "57600",
+								"id": "stino_board_option_57600",
+								"command": "stino_select_board_option",
+								"args": {"option": "Upload Speed", "value": "57600"},
+								"checkbox": true
+							},
+							{
+								"caption": "230400",
+								"id": "stino_board_option_230400",
+								"command": "stino_select_board_option",
+								"args": {"option": "Upload Speed", "value": "230400"},
+								"checkbox": true
+							},
+							{
+								"caption": "460800",
+								"id": "stino_board_option_460800",
+								"command": "stino_select_board_option",
+								"args": {"option": "Upload Speed", "value": "460800"},
+								"checkbox": true
+							},
+							{
+								"caption": "921600",
+								"id": "stino_board_option_921600",
+								"command": "stino_select_board_option",
+								"args": {"option": "Upload Speed", "value": "921600"},
+								"checkbox": true
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

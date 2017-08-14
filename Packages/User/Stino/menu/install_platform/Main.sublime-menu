@@ -1,0 +1,72 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Install Platform",
+				"id": "stino_install_platform",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_install_platform",
+						"command": "stino_refresh_install_platform"
+					},
+					{
+						"caption": "Add Package",
+						"id": "stino_add_package",
+						"command": "stino_add_package"
+					},
+					{
+						"caption": "Add Arduino IDE",
+						"id": "stino_add_ide",
+						"command": "stino_add_ide"
+					},
+					{"caption": "-"},
+					{
+						"caption": "esp8266",
+						"id": "stino_package_esp8266",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "esp8266",
+								"id": "stino_platform_esp8266",
+								"children":
+								[									{"caption": "-"},
+									{										"caption": "2.3.0",
+										"id": "stino_platform_2.3.0",
+										"command": "stino_install_platform",
+										"args": {"package_name": "esp8266", "platform_name": "esp8266", "version": "2.3.0"}
+									},
+									{										"caption": "2.1.0",
+										"id": "stino_platform_2.1.0",
+										"command": "stino_install_platform",
+										"args": {"package_name": "esp8266", "platform_name": "esp8266", "version": "2.1.0"}
+									},
+									{										"caption": "2.0.0",
+										"id": "stino_platform_2.0.0",
+										"command": "stino_install_platform",
+										"args": {"package_name": "esp8266", "platform_name": "esp8266", "version": "2.0.0"}
+									},
+									{										"caption": "2.2.0",
+										"id": "stino_platform_2.2.0",
+										"command": "stino_install_platform",
+										"args": {"package_name": "esp8266", "platform_name": "esp8266", "version": "2.2.0"}
+									},
+									{										"caption": "1.6.5-947-g39819f0",
+										"id": "stino_platform_1.6.5-947-g39819f0",
+										"command": "stino_install_platform",
+										"args": {"package_name": "esp8266", "platform_name": "esp8266", "version": "1.6.5-947-g39819f0"}
+									}
+								]							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,151 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Open Example",
+				"id": "stino_examples",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_examples",
+						"command": "stino_refresh_examples"
+					},
+					{"caption": "-"},
+					{"caption": "-"},
+					{
+						"caption": "IRremote",
+						"id": "stino_example_IRremote",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "AiwaRCT501SendDemo",
+										"id": "stino_example_AiwaRCT501SendDemo",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/AiwaRCT501SendDemo"}
+									},
+									{
+										"caption": "IRrecord",
+										"id": "stino_example_IRrecord",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/IRrecord"}
+									},
+									{
+										"caption": "IRrecvDemo",
+										"id": "stino_example_IRrecvDemo",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/IRrecvDemo"}
+									},
+									{
+										"caption": "IRrecvDump",
+										"id": "stino_example_IRrecvDump",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/IRrecvDump"}
+									},
+									{
+										"caption": "IRrecvDumpV2",
+										"id": "stino_example_IRrecvDumpV2",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/IRrecvDumpV2"}
+									},
+									{
+										"caption": "IRrelay",
+										"id": "stino_example_IRrelay",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/IRrelay"}
+									},
+									{
+										"caption": "IRremoteInfo",
+										"id": "stino_example_IRremoteInfo",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/IRremoteInfo"}
+									},
+									{
+										"caption": "IRsendDemo",
+										"id": "stino_example_IRsendDemo",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/IRsendDemo"}
+									},
+									{
+										"caption": "IRsendRawDemo",
+										"id": "stino_example_IRsendRawDemo",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/IRsendRawDemo"}
+									},
+									{
+										"caption": "IRtest",
+										"id": "stino_example_IRtest",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/IRtest"}
+									},
+									{
+										"caption": "IRtest2",
+										"id": "stino_example_IRtest2",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/IRtest2"}
+									},
+									{
+										"caption": "JVCPanasonicSendDemo",
+										"id": "stino_example_JVCPanasonicSendDemo",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/JVCPanasonicSendDemo"}
+									},
+									{
+										"caption": "LGACSendDemo",
+										"id": "stino_example_LGACSendDemo",
+										"command": "stino_open_example",
+										"args": {"example_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote/examples/LGACSendDemo"}
+									}								]
+							}						]
+					},
+					{
+						"caption": "LiquidCrystal_I2C",
+						"id": "stino_example_LiquidCrystal_I2C",
+						"children":
+						[
+							{"caption": "-"},
+							{
+								"caption": "examples",
+								"id": "stino_example_examples",
+								"children":
+								[
+									{"caption": "-"},
+									{
+										"caption": "CustomChars",
+										"id": "stino_example_CustomChars",
+										"children":
+										[
+											{"caption": "-"}										]
+									},
+									{
+										"caption": "HelloWorld",
+										"id": "stino_example_HelloWorld",
+										"children":
+										[
+											{"caption": "-"}										]
+									},
+									{
+										"caption": "SerialDisplay",
+										"id": "stino_example_SerialDisplay",
+										"children":
+										[
+											{"caption": "-"}										]
+									}								]
+							}						]
+					}
+				]
+			}
+		]
+	}
+]

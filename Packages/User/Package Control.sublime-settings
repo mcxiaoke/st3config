@@ -6,7 +6,9 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Arduino-like IDE",
 		"AutoPEP8",
+		"Clang Format",
 		"Codecs33",
 		"ConvertToUTF8",
 		"DashDoc",

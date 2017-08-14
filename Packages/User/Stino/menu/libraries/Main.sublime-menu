@@ -1,0 +1,35 @@
+[
+	{
+		"caption": "Arduino",
+		"mnemonic": "A",
+		"id": "arduino",
+		"children":
+		[
+			{
+				"caption": "Import Library",
+				"id": "stino_import_library",
+				"children":
+				[
+					{
+						"caption": "Refresh",
+						"id": "stino_refresh_libraries",
+						"command": "stino_refresh_libraries"
+					},
+					{"caption": "-"},
+					{
+						"caption": "IRremote",
+						"id": "stino_library_IRremote",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/mcxiaoke/Documents/Arduino/libraries/IRremote"}
+					},
+					{
+						"caption": "LiquidCrystal_I2C",
+						"id": "stino_library_LiquidCrystal_I2C",
+						"command": "stino_import_library",
+						"args": {"library_path": "/Users/mcxiaoke/Documents/Arduino/libraries/LiquidCrystal_I2C-master"}
+					}
+				]
+			}
+		]
+	}
+]
